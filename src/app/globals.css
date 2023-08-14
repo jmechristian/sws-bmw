@@ -1,27 +1,45 @@
 @tailwind base;
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-helvetica-bold;
+  }
+
+  html,
+  body {
+    @apply font-helvetica;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'BMW Helvetica';
+  src: url('/fonts/BMWHelvetica-Light.eot');
+  src: url('/fonts/BMWHelvetica-Light.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/BMWHelvetica-Light.woff2') format('woff2'),
+    url('/fonts/BMWHelvetica-Light.woff') format('woff'),
+    url('/fonts/BMWHelvetica-Light.svg#BMWHelvetica-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: 'BMW Helvetica Bold';
+  src: url('/fonts/BMWHelveticaBold.eot');
+  src: url('/fonts/BMWHelveticaBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/BMWHelveticaBold.woff2') format('woff2'),
+    url('/fonts/BMWHelveticaBold.woff') format('woff'),
+    url('/fonts/BMWHelveticaBold.svg#BMWHelveticaBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
 }
