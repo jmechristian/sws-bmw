@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body>
         <div className='bg-black w-full py-9 pl-9'>
           <div className='w-full max-w-[512px] '>
             <Image
@@ -26,13 +26,13 @@ export default function RootLayout({ children }) {
           </div>
         </div>
         {children}
-        <div className='bg-black py-16'>
+        <div className='bg-black py-16 text-center px-9 lg:px-0'>
           <div className='flex flex-col justify-center items-center'>
             <div className='text-white text-sm'>
               South Carolina Commission on Higher Education License #5400
             </div>
             <div className='text-bmw-gold text-sm'>
-              Copyright © 2022 The Packaging School, LLC. All Rights Reserved.
+              Copyright © 2023 The Packaging School, LLC. All Rights Reserved.
             </div>
           </div>
         </div>

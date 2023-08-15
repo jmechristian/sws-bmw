@@ -13,7 +13,7 @@ module.exports = {
         'bmw-red': '#B11926',
         'bmw-lightblue': '#04829b',
         'bmw-yellow': '#fad022',
-        'bmw-green': '508130',
+        'bmw-green': '#508130',
         'bmw-coolgray': '#494949',
         'bmw-gray': '#6f6f6f',
       },

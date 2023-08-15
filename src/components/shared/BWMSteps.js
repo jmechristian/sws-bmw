@@ -18,7 +18,7 @@ const BMWSteps = () => {
                   01
                 </div>
               </div>
-              <div className='text-5xl tracking-tighter font-bold text-white'>
+              <div className='text-5xl tracking-tighter font-helvetica-bold text-white'>
                 Take
                 <br /> Survey
               </div>
@@ -31,7 +31,7 @@ const BMWSteps = () => {
           <div className='w-full mt-6 bg-bmw-coolgray  py-4 text-center rounded'>
             <Link
               href={'/sws-bmw-start-survey'}
-              className='w-full rounded-lg  text-white font-bold text-lg'
+              className='w-full rounded-lg  text-white font-helvetica-bold text-lg'
             >
               Start Here: Survey
             </Link>
@@ -45,7 +45,7 @@ const BMWSteps = () => {
                   02
                 </div>
               </div>
-              <div className='text-5xl tracking-tighter font-bold text-white'>
+              <div className='text-5xl tracking-tighter font-helvetica-bold text-white'>
                 Complete
                 <br /> Training
               </div>
@@ -58,7 +58,7 @@ const BMWSteps = () => {
           <div className='w-full mt-6 bg-bmw-coolgray  py-4 text-center rounded'>
             <Link
               href={'/sws-bmw-overview-training'}
-              className='w-full rounded-lg  text-white font-bold text-lg'
+              className='w-full rounded-lg  text-white font-helvetica-bold text-lg'
             >
               Training Overview & FAQs
             </Link>
@@ -72,7 +72,7 @@ const BMWSteps = () => {
                   03
                 </div>
               </div>
-              <div className='text-5xl tracking-tighter font-bold text-white'>
+              <div className='text-5xl tracking-tighter font-helvetica-bold text-white'>
                 Complete
                 <br /> Assignment
               </div>
@@ -82,7 +82,7 @@ const BMWSteps = () => {
             The assignment is completed by
             <br /> the main supplier contact
           </div>
-          <div className='px-4 py-4 mt-7 font-semibold text-black text-center'>
+          <div className='px-4 py-4 mt-7 font-helvetica-bold text-black lg:text-lg text-center lg:leading-snug'>
             The assignment will be part of the training
           </div>
         </div>

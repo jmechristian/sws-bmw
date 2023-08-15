@@ -28,7 +28,7 @@ const BMWHero = () => {
           </div>
           <div className='mx-auto max-w-2xl lg:pl-6 xl:pl-0 lg:pr-16'>
             <h1 className='mt-12 text-4xl font-bold tracking-tight text-gray-900 sm:mt-9 sm:text-5xl'>
-              BMW Supplier Training for Spare Parts
+              BMW Supplier &nbsp;Training for Spare Parts
             </h1>
             <p className='mt-6 text-lg leading-8 text-gray-500'>
               This training is for the onboarding of new BMW Spare Parts
@@ -41,13 +41,13 @@ const BMWHero = () => {
             <div className='mt-10 flex items-center gap-x-6'>
               <a
                 href='#start'
-                className='rounded-md text-lg bg-bmw-lightblue px-3.5 py-2.5 font-semibold text-white shadow-sm hover:bg-clemson-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clemson'
+                className='rounded-md text-lg font-helvetica-bold bg-bmw-lightblue px-3.5 py-2.5 font-semibold text-white shadow-sm hover:bg-clemson-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clemson'
               >
                 Get started
               </a>
               <a
                 href='https://learn.packagingschool.com/users/sign_in'
-                className='flex items-center gap-1 font-semibold text-lg'
+                className='flex items-center gap-1 font-semibold text-lg font-helvetica-bold'
                 target='_blank'
                 rel='noreferrer'
               >
