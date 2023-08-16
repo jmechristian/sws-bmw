@@ -1,14 +1,16 @@
+'use client';
+
 import Image from 'next/image';
 import './globals.css';
 import { Inter } from 'next/font/google';
+import { useRouter } from 'next/navigation';
+import { AnimatePresence, motion } from 'framer-motion';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'SWS BMW Landing Page',
-};
-
 export default function RootLayout({ children }) {
+  const router = useRouter();
+
   return (
     <html lang='en'>
       <body>
