@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
               }
               height={54}
               width={512}
-              layout='responsive'
               alt='On behalf of BWM GROUP'
             />
           </div>
