@@ -1,5 +1,6 @@
 import FadeIn from '@/components/shared/FadeIn';
 import Link from 'next/link';
+import Script from 'next/script';
 
 export default function SurveyLayout({ children }) {
   return (

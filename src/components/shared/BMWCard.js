@@ -16,7 +16,7 @@ const BMWCard = ({ title, icon, content }) => {
             <div className='bg-white rounded-full flex justify-center items-center'>
               <Image src={icon} width={100} height={100} alt='icon' />
             </div>
-            <div className='flex justify-center items-center h-24 bg-bmw-green w-full'>
+            <div className='flex justify-center items-center h-24 bg-bmw-blue w-full'>
               <div className='text-xl text-white font-helvetica-bold tracking-tighter font-bold text-center '>
                 {title}
               </div>

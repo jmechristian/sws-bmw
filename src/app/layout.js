@@ -5,6 +5,7 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 import { useRouter } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 

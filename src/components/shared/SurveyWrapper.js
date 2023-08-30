@@ -27,11 +27,13 @@ const SurveyWrapper = () => {
             Are you the initial supplier contact?
           </div>
           <div className='flex flex-col md:flex-row md:items-center md:gap-16 mt-6'>
-            <div className='lg:mt-0 bg-bmw-gold text-white text-center font-helvetica-bold cursor-pointer text-lg w-52 py-1.5 rounded-lg'>
-              <Link href={'/sws-bmw-survey'}>YES</Link>
-            </div>
+            <Link href={'/sws-bmw-survey'}>
+              <div className='lg:mt-0 hover:scale-110 transition ease-in bg-bmw-gold text-white text-center font-helvetica-bold cursor-pointer text-lg w-52 py-1.5 rounded-lg'>
+                YES
+              </div>
+            </Link>
             <div
-              className='mt-3 lg:mt-0 bg-bmw-gold text-white text-center font-helvetica-bold cursor-pointer text-lg w-52 py-1.5 rounded-lg'
+              className='mt-3 lg:mt-0 bg-bmw-gold hover:scale-110 transition ease-in text-white text-center font-helvetica-bold cursor-pointer text-lg w-52 py-1.5 rounded-lg'
               onClick={() => setIsOpen(true)}
             >
               NO
