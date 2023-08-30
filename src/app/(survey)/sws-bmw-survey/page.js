@@ -9,6 +9,7 @@ const Page = () => {
         src='https://packagingschool42200.activehosted.com/f/embed.php?id=58'
         type='text/javascript'
         charset='utf-8'
+        strategy='afterInteractive'
       />
     </div>
   );
