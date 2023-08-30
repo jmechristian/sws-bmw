@@ -61,7 +61,7 @@ const BMWHero = () => {
         </div>
         <div className='relative lg:col-span-5 overflow-hidden lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0'>
           <img
-            className='aspect-[2/2] lg:aspect-[3/2] w-full bg-center bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full'
+            className='aspect-[2/2] lg:aspect-[3/2] w-full bg-bottom bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full'
             src='https://packschool.s3.amazonaws.com/DI23_000124107-S_FINAL.jpeg'
             alt=''
           />
