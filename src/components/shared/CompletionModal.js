@@ -23,9 +23,9 @@ const CompletionModal = ({ open, close }) => {
               />
             </div>
             <div className='font-helvetica-bold text-gray-600 text-center text-lg'>
-              Thank you for submitting your survey answers. BMW will review your
-              comments and reach out to you and your team members with the a
-              corresponding Training Links. Once you receive this link, please
+              Thank yocccccu for submitting your survey answers. BMW will review
+              your comments and reach out to you and your team members with the
+              a corresponding Training Links. Once you receive this link, please
               make sure you initiate your account and start learning!
             </div>
           </div>
