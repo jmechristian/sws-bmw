@@ -1,9 +1,4 @@
 import React from 'react';
-import {
-  PencilSquareIcon,
-  BookOpenIcon,
-  AcademicCapIcon,
-} from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Image from 'next/image';
 
