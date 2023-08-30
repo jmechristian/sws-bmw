@@ -43,7 +43,7 @@ const BMWHero = () => {
                 href='#start'
                 className='rounded-md text-lg font-helvetica-bold bg-bmw-lightblue px-3.5 py-2.5 font-semibold text-white shadow-sm hover:bg-clemson-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-clemson'
               >
-                Get started
+                Get started!
               </a>
               <a
                 href='https://learn.packagingschool.com/users/sign_in'
