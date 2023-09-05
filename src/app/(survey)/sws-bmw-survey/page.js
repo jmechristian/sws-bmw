@@ -35,6 +35,7 @@ const Page = () => {
     formData.append('field[47]', data.field[47]);
     formData.append('field[48]', data.field[48]);
     formData.append('field[55]', data.field[55]);
+    formData.append('field[83]', data.field[83]);
     formData.append('field[58]', data.field[58]);
     formData.append('field[56]', data.field[56]);
     formData.append('field[60]', data.field[60]);
@@ -42,6 +43,7 @@ const Page = () => {
     formData.append('field[61]', data.field[61]);
     formData.append('field[63]', data.field[63]);
     formData.append('field[62]', data.field[62]);
+    formData.append('field[84]', data.field[84]);
     formData.append('field[65]', data.field[65]);
     formData.append('field[52]', data.field[52]);
     formData.append('field[50]', data.field[50]);
@@ -59,7 +61,6 @@ const Page = () => {
       setIsLoading(false);
       setIsSubmitted(true);
       router.push('/sws-bmw-survey-thank-you');
-      setHas;
     } catch (err) {
       setIsLoading(false);
       setIsSubmitted(true);
