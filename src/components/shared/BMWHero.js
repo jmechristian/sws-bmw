@@ -14,7 +14,7 @@ const BMWHero = () => {
   return (
     <div className='relative bg-white'>
       <div className='mx-auto max-w-[2000px] lg:grid lg:grid-cols-12 lg:gap-x-8 overflow-hidden'>
-        <div className='px-6 pb-24 pt-16 lg:col-span-6 xl:px-6 xl:pb-40 xl:pt-28 xl:col-span-6'>
+        <div className='px-6 md:px-12 pb-24 pt-16 lg:col-span-6 xl:px-12 xl:pb-40 xl:pt-28 xl:col-span-6'>
           <div className='bg-gray-100 mb-16 px-4 w-fit py-2 rounded-lg flex justify-center items-center gap-2 cursor-pointer'>
             <div>
               <QuestionMarkCircleIcon className='w-7 h-7 text-gray-400' />
@@ -26,7 +26,7 @@ const BMWHero = () => {
               </a>
             </div>
           </div>
-          <div className='mx-auto max-w-2xl'>
+          <div className=''>
             <h1 className='text-4xl font-bold tracking-tight text-gray-900 xl:mt-9 xl:text-5xl'>
               BMW Supplier &nbsp;Training for Spare Parts
             </h1>
