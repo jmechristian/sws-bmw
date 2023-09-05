@@ -180,7 +180,7 @@ const Page = () => {
             <div className='mt-2'>
               <select
                 id='field[83]'
-                {...register('field[58]', { required: true })}
+                {...register('field[83]', { required: true })}
                 name='field[83]'
                 className='mt-2 block w-full rounded-md border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-400 focus:ring-2 focus:ring-bmw-blue sm:text-sm sm:leading-6'
                 defaultValue='Empty'

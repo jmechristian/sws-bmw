@@ -1,6 +1,11 @@
 import FadeIn from '@/components/shared/FadeIn';
 import Link from 'next/link';
 import Script from 'next/script';
+import { Metadata } from 'next';
+
+export const metadata = {
+  title: 'BMW Supplier  Training for Spare Parts ',
+};
 
 export default function SurveyLayout({ children }) {
   return (
