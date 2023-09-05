@@ -18,7 +18,7 @@ const BMWSteps = () => {
                   01
                 </div>
               </div>
-              <div className='text-5xl tracking-tighter font-helvetica-bold text-white'>
+              <div className='text-4xl xl:text-5xl tracking-tighter font-helvetica-bold text-white'>
                 Take
                 <br /> Survey
               </div>
@@ -45,7 +45,7 @@ const BMWSteps = () => {
                   02
                 </div>
               </div>
-              <div className='text-5xl tracking-tighter font-helvetica-bold text-white'>
+              <div className='text-4xl xl:text-5xl tracking-tighter font-helvetica-bold text-white'>
                 Complete
                 <br /> Training
               </div>
@@ -72,7 +72,7 @@ const BMWSteps = () => {
                   03
                 </div>
               </div>
-              <div className='text-5xl tracking-tighter font-helvetica-bold text-white'>
+              <div className='text-4xl xl:text-5xl tracking-tighter font-helvetica-bold text-white'>
                 Complete
                 <br /> Assignment
               </div>
