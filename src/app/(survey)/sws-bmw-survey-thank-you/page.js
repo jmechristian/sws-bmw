@@ -12,8 +12,8 @@ const Page = () => {
       <div className='flex flex-col justify-center items-center p-12 gap-6'>
         <div className='font-helvetica-bold text-gray-600 text-center text-lg'>
           Thank you for submitting your survey answers. BMW will review your
-          comments and reach out to you and your team members with the a
-          corresponding Training Links. Once you receive this link, please make
+          comments and reach out to you and your team members with the
+          corresponding Training Link. Once you receive this link, please make
           sure you initiate your account and start learning!
         </div>
       </div>
