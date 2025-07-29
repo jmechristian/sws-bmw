@@ -46,7 +46,7 @@ const BMWHero = () => {
                 Get started
               </a>
               <a
-                href='https://learn.packagingschool.com/users/sign_in'
+                href='https://packagingschool.com/login?returnTo=https://bmw.packagingschool.com'
                 className='flex items-center gap-1 font-semibold text-lg font-helvetica-bold'
                 target='_blank'
                 rel='noreferrer'
