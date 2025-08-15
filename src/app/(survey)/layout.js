@@ -34,7 +34,7 @@ export default function SurveyLayout({ children }) {
               </div>
             </div>
             <div className='flex flex-col justify-center items-center gap-4 relative z-10'>
-              <a href='https://packagingschool.com/login?returnTo=https://bmw.packagingschool.com'>
+              <a href='https://packagingschool.com/login?returnTo=/profile'>
                 <div className='bg-bmw-gold text-white text-center font-helvetica-bold cursor-pointer text-lg w-52 py-1.5 rounded-lg'>
                   Login
                 </div>
